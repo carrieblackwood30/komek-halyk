@@ -4,6 +4,7 @@
     --main-color: #1c2025;
     --text-color: #ffffff;
     --secondary-color: #232b33;
+    --secondary-block-color: #272d33;
 }
 
 *{
@@ -87,8 +88,11 @@ section{
     border-bottom: 1px solid var(--main-color);
 }
 
+.nav-bar li a{
+    transition: .3s all ease-in-out;
+}
+
 .nav-bar li:hover a{
-    border-bottom: 1px solid gold;
     color: gold;
 }
 
@@ -135,6 +139,11 @@ section{
     padding: 1.1rem 1.8rem;
     color: var(--text-color);
     border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.hero-action-btn:hover{
+    scale: 1.1;
 }
 
 .advantages{
@@ -145,7 +154,7 @@ section{
     text-align: center;
     flex-wrap: wrap;
     gap: 8rem;
-    background: #272d33;
+    background: var(--secondary-block-color);
 }
 
 .advantages-cards{
@@ -195,7 +204,12 @@ section{
     display: flex;
     justify-content: center;
     gap: 4rem;
+    flex-wrap: wrap;
     align-items: center;
+}
+
+.advantages-footer img{
+    min-width: 20px;
 }
 
 .advantages-footer-blocks{
@@ -220,6 +234,10 @@ section{
     align-items: center;
 }
 
+.services-description-card a{
+    text-decoration: underline;
+}
+
 .aboutAndForm-wrapper{
     overflow: hidden;
     display: flex;
@@ -227,7 +245,10 @@ section{
 }
 
 .aboutAndForm{
+    background-color: var(--secondary-block-color);
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 8rem 0;
     justify-content: space-around;
 }
@@ -238,12 +259,24 @@ section{
     margin: 4rem 0;
 }
 
+.about h4{
+    font-size: 2rem;
+    color: #ffe7d3;
+    max-width: 540px;
+    margin: 4rem 0;
+}
+
 .about p{
-    max-width: 500px;
+    max-width: 540px;
     font-size: 2rem;
 }
 
-
+.aboutAndForm .clients{
+    text-align: center;
+    font-size: 4rem;
+    max-width: 700px;
+    border-bottom: 1px solid #f1b98a;
+}
 
 
 
@@ -305,7 +338,10 @@ section{
     }
 
     .header{
-        position: relative;
+        position: fixed;
+        z-index: 5;
+        width: 100%;
+        margin: -10px;
     }
 
     .hero{
@@ -331,6 +367,17 @@ section{
         margin: 1rem 0;
     }
 
+    .mobile-nav-bar{
+        position: fixed;
+        z-index: 10;
+    }
+    
+    .advantages-footer-mainImg{
+        width: 400px;
+        height: 200px;
+    }
 
-
+    .aboutAndForm-wrapper{
+        max-height: 850px;
+    }
 }
