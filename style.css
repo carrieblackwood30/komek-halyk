@@ -249,7 +249,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 8rem 0;
+    margin: 8rem 0 4rem 0;
     justify-content: space-around;
 }
 
@@ -279,15 +279,53 @@ section{
 }
 
 
+.footer-header{
+    text-align: center;
+    border-bottom: 2px solid rgba(245, 245, 245, 0.068);
+    padding-bottom: 2rem;
+}
 
+.footer-header h3{
+    font-size: 4rem;
+}
 
+.footer-header p{
+    font-size: 2rem;
+    opacity: .8;
+    margin: 2rem;
+}
 
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.social{
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+    gap: 1rem;
+}
 
+.social{
+    font-size: 2rem;
+}
 
+.socialMedias-header{
+    font-size: 1.8rem;
+    text-align: center;
+    opacity: .8;
+}
 
+.address{
+    font-size: 1.8rem;
+    opacity: .8;
+}
 
-
+.address h3{
+    margin-bottom: 1rem;
+}
 
 @media(max-width:1021px){
 
