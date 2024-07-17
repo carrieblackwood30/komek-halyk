@@ -384,6 +384,7 @@ section{
 
     .hero{
         overflow-y: hidden;
+        background-attachment:initial;
     }
 
     .hero-wrapper h3{
