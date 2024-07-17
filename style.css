@@ -386,6 +386,10 @@ section{
         overflow-y: hidden;
     }
 
+    .hero-wrapper h3{
+        font-size: 1.4rem;
+    }
+
     .burger-menu{
         display: block;
     }
@@ -411,8 +415,7 @@ section{
     }
     
     .advantages-footer-mainImg{
-        width: 400px;
-        height: 200px;
+        display: none;
     }
 
     .aboutAndForm-wrapper{
