@@ -120,7 +120,7 @@ section{
 }
 
 .hero h3{
-    font-size: 1.8rem;
+    font-size: 2rem;
     max-width: 800px;
     margin: 2rem;
 }
@@ -387,8 +387,12 @@ section{
         background-attachment:initial;
     }
 
+    .hero-wrapper{
+        background: #1c202527;
+    }
+
     .hero-wrapper h3{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 
     .burger-menu{
