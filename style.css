@@ -253,6 +253,10 @@ section{
     justify-content: space-around;
 }
 
+.about{
+    text-align: start;
+}
+
 .about h3{
     font-size: 4rem;
     color: #f1b98a;
@@ -269,6 +273,7 @@ section{
 .about p{
     max-width: 540px;
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .aboutAndForm .clients{
@@ -425,6 +430,6 @@ section{
 
     .aboutAndForm-wrapper{
         max-height: fit-content;
-        margin-bottom: 4rem;
+        overflow: hidden;
     }
 }
