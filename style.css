@@ -93,6 +93,12 @@ section{
     gap: 4rem;
 }
 
+.languages{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+}
+
 .languages img{
     cursor: pointer;
 }
@@ -447,6 +453,10 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    .languages{
+        position: static;
     }
 
     .mobile-nav-bar .kz.active{
