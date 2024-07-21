@@ -87,6 +87,22 @@ section{
     background: var(--main-color);
 }
 
+.contact-number{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.languages img{
+    cursor: pointer;
+}
+
+.languages-choose{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .contact-number button{
     color: black;
 }
