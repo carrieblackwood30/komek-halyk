@@ -20,6 +20,22 @@
     font-optical-sizing: auto;
 }
 
+.nav-bar .kz{
+    display: none;
+}
+
+.kz{
+    display: none;
+}
+
+.kz.active{
+    display: flex;
+}
+
+.ru.disabled{
+    display: none;
+}
+
 .burger-menu{
     display: none;
 }
@@ -71,6 +87,10 @@ section{
     background: var(--main-color);
 }
 
+.contact-number button{
+    color: black;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -79,8 +99,11 @@ section{
 .nav-bar{
     font-size: 1.8rem;
     padding: 2rem 2rem;
-    display: flex;
+}
+
+.nav-bar *{
     gap: 4rem;
+    display: flex;
 }
 
 .nav-bar li{
@@ -131,6 +154,11 @@ section{
     margin-top: 8rem;
 }
 
+.hero-wrapper .kz{
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-action-btn{
     background-color: #f1b98a;
     margin: 2rem 0;
@@ -157,13 +185,22 @@ section{
 }
 
 .advantages-cards{
+    width: 330px;
+    transition: .3s all ease-in-out;
+}
+
+.advantages-cards{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 300px;
-    transition: .3s all ease-in-out;
 }
+
+.advantages-cards .kz.active{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
 
 .advantages-cards:hover{
     scale: 1.1;
@@ -234,6 +271,7 @@ section{
 }
 
 .services-description-card a{
+    width: fit-content;
     text-decoration: underline;
 }
 
@@ -250,6 +288,10 @@ section{
     align-items: center;
     margin: 8rem 0 4rem 0;
     justify-content: space-around;
+}
+
+.aboutAndForm .about .kz.active{
+    display: block;
 }
 
 .about{
@@ -275,18 +317,34 @@ section{
     font-weight: 700;
 }
 
+.about a{
+    text-decoration: underline;
+}
+
 .aboutAndForm .clients{
+    text-align: center;
+    font-size: 4rem;
+    max-width: 1000px;
+    border-bottom: 1px solid #f1b98a;
+}
+
+
+.aboutAndForm .clients .kz.active{
     text-align: center;
     font-size: 4rem;
     max-width: 700px;
     border-bottom: 1px solid #f1b98a;
 }
 
-
 .footer-header{
     text-align: center;
     border-bottom: 2px solid rgba(245, 245, 245, 0.068);
     padding-bottom: 2rem;
+}
+
+.footer-header_header{
+    display: flex;
+    justify-content: center;
 }
 
 .footer-header h3{
@@ -374,6 +432,10 @@ section{
     html{
         font-size: 50%;
     }
+
+    .mobile-nav-bar .kz.active{
+        display: block;
+    }    
 
     .nav-bar{
         display: none;
