@@ -110,7 +110,6 @@ section{
     height: 70dvh;
     box-shadow: 4px -1px 38px 18px rgba(34, 60, 80, 0.21);
     text-align: center;
-    opacity: 0.9;
 }
 
 .hero p{
@@ -393,7 +392,8 @@ section{
     }
 
     .hero-wrapper{
-        background: #1c202527;
+        margin-top: 3rem;
+        background: #1c202581;
     }
 
     .hero-wrapper h3{
