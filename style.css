@@ -91,6 +91,7 @@ section{
     display: flex;
     align-items: center;
     gap: 4rem;
+    margin-right: 1rem;
 }
 
 .languages{
