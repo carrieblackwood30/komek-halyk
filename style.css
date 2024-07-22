@@ -321,6 +321,10 @@ section{
     text-align: start;
 }
 
+.aboutAndForm_fill-block{
+    display: none;
+}
+
 .about h3{
     font-size: 4rem;
     color: #f1b98a;
@@ -447,7 +451,21 @@ section{
         margin: 0 1rem;
     }
 
-    
+    .aboutAndForm_fill-block{
+        display: none;
+    }
+
+}
+
+@media(max-width:1380px){
+    .aboutAndForm_fill-block{
+        display: block;
+        max-width: 400px;
+    }
+
+    .aboutAndForm_fill-block{
+        font-size: 2.8rem;
+    }
 }
 
 @media(max-width:450px){
@@ -463,6 +481,11 @@ section{
     .mobile-nav-bar .kz.active{
         display: block;
     }    
+    
+    .aboutAndForm_fill-block{
+        display: none;
+    }
+
 
     .nav-bar{
         display: none;
